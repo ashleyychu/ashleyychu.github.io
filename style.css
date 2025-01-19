@@ -3,4 +3,42 @@ body {
          and use the OS’s UI font as the website font
        */
     font: 100%/1.5 system-ui;
+    max-width: 100ch;
+    margin-inline: max(4em, (100% - 100ch) / 2);
+    padding-inline: 4em;
+
+    ul li {
+      display: contents;
+    }
+    
+    nav ul {
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      padding: 1rem;
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      border-bottom-color: oklch(80% 3% 200);
+      
+      a {
+        flex: auto;
+        text-decoration: none;
+        color: inherit;
+        text-align: center;
+        padding: 0.5em;
+        margin-bottom: auto;
+        .current {
+          border-bottom-width: 0.4em;
+          border-bottom-color: oklch(80% 3% 200);
+          padding-bottom: 0.6em;
+          background-color: hsl(80% 3% 200);
+        }
+      }
+      
+    }
+
+
   }
+
+  
+  
