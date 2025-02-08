@@ -86,32 +86,6 @@ ul li {
   display: contents;
 }
 
-/* Navigation styling */
-nav {
-  --border-color: oklch(50% 10% 200 / 40%);
-  padding: 1rem;
-  border-bottom: 1px solid var(--border-color);
-  margin-bottom: 1rem;
-}
-
-nav a {
-  color: inherit;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  border-radius: 0.3rem;
-  border-bottom: 0.2rem solid transparent;
-  transition: 0.2s ease-in-out;
-}
-
-nav a:hover {
-  background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
-  border-bottom-color: var(--border-color);
-}
-
-nav a.current {
-  border-bottom-color: var(--color-accent, oklch(63.32% 0.229 256.85));
-}
-
 /* Color scheme switcher styling */
 .color-scheme {
   position: absolute;
@@ -130,7 +104,6 @@ select, input, textarea, button {
   font-family: inherit;
 }
 
-
 #profile-stats dl {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -147,4 +120,59 @@ select, input, textarea, button {
   grid-row: 2;
   margin: 0;
   text-align: center;
+}
+
+#projects-plot {
+  max-width: 20em;
+  margin-block: 2em;
+  overflow: visible;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.legend {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  gap: 1em;
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.legend li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.swatch {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: var(--color);
+  border-radius: 50%;
+}
+
+&:has(path:hover) {
+  path:not(:hover) {
+    opacity: 0.5;
+  }
+}
+
+path {
+  transition: opacity 300ms;
+  cursor: pointer;
+}
+
+.selected {
+  --color: oklch(60% 45% 0) !important;
+
+  &:is(path) {
+    fill: var(--color);
+  }
 }

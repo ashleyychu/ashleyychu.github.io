@@ -25,7 +25,25 @@
     },
     {
       "title": "Predicting Wildfires in California",
-      "year": 2021,
+      "year": 2022,
+      "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+      "description": "Analyzed wildfires in Northern California and their co-occurrence with precipitation and temperature to find key determinants in predicting wildfires. Used Python, Pandas, Numpy, and Matplotlib to analyze and visualize data."
+    },
+    {
+      "title": "Predicting Wildfires in California",
+      "year": 2023,
+      "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+      "description": "Analyzed wildfires in Northern California and their co-occurrence with precipitation and temperature to find key determinants in predicting wildfires. Used Python, Pandas, Numpy, and Matplotlib to analyze and visualize data."
+    },
+    {
+      "title": "Predicting Wildfires in California",
+      "year": 2022,
+      "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+      "description": "Analyzed wildfires in Northern California and their co-occurrence with precipitation and temperature to find key determinants in predicting wildfires. Used Python, Pandas, Numpy, and Matplotlib to analyze and visualize data."
+    },
+    {
+      "title": "Predicting Wildfires in California",
+      "year": 2022,
       "image": "https://dsc106.com/labs/lab02/images/empty.svg",
       "description": "Analyzed wildfires in Northern California and their co-occurrence with precipitation and temperature to find key determinants in predicting wildfires. Used Python, Pandas, Numpy, and Matplotlib to analyze and visualize data."
     },
@@ -37,25 +55,7 @@
     },
     {
       "title": "Predicting Wildfires in California",
-      "year": 2021,
-      "image": "https://dsc106.com/labs/lab02/images/empty.svg",
-      "description": "Analyzed wildfires in Northern California and their co-occurrence with precipitation and temperature to find key determinants in predicting wildfires. Used Python, Pandas, Numpy, and Matplotlib to analyze and visualize data."
-    },
-    {
-      "title": "Predicting Wildfires in California",
-      "year": 2021,
-      "image": "https://dsc106.com/labs/lab02/images/empty.svg",
-      "description": "Analyzed wildfires in Northern California and their co-occurrence with precipitation and temperature to find key determinants in predicting wildfires. Used Python, Pandas, Numpy, and Matplotlib to analyze and visualize data."
-    },
-    {
-      "title": "Predicting Wildfires in California",
-      "year": 2021,
-      "image": "https://dsc106.com/labs/lab02/images/empty.svg",
-      "description": "Analyzed wildfires in Northern California and their co-occurrence with precipitation and temperature to find key determinants in predicting wildfires. Used Python, Pandas, Numpy, and Matplotlib to analyze and visualize data."
-    },
-    {
-      "title": "Predicting Wildfires in California",
-      "year": 2021,
+      "year": 2020,
       "image": "https://dsc106.com/labs/lab02/images/empty.svg",
       "description": "Analyzed wildfires in Northern California and their co-occurrence with precipitation and temperature to find key determinants in predicting wildfires. Used Python, Pandas, Numpy, and Matplotlib to analyze and visualize data."
     },
