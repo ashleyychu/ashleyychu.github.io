@@ -2,6 +2,7 @@
 html {
   --color-accent: oklch(50% 0.12 170);
   color-scheme: light dark;
+  color-scheme: light dark;
 }
 
 /* Base body styles */
@@ -77,7 +78,10 @@ nav a.current {
 }
 
 /* Form elements */
-select, input, textarea, button {
+select,
+input,
+textarea,
+button {
   font-family: inherit;
 }
 
@@ -100,7 +104,10 @@ ul li {
 }
 
 /* Make sure form elements inherit font */
-select, input, textarea, button {
+select,
+input,
+textarea,
+button {
   font-family: inherit;
 }
 

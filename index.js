@@ -10,7 +10,7 @@ renderProjects(latestProjects, projectsContainer, 'h3');
 try {
     const githubData = await fetchGitHubData('ashleyychu');
     const profileStats = document.querySelector('#profile-stats');
-    
+
     if (profileStats) {
         profileStats.innerHTML = `
             <dl>
