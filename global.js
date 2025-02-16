@@ -44,7 +44,7 @@ let pages = [
     { url: '', title: 'Home' },
     { url: 'projects/', title: 'Projects' },
     { url: 'contact/', title: 'Contact Me' },
-    { url: 'https://github.com/ashleyychu', title: 'My Github' },
+    { url: 'git https://github.com/ashleyychu', title: 'My Github' },
     { url: 'portfolio_resume.pdf', title: 'My Resume' },
     { url: 'meta/', title: 'Meta' }
 ];
