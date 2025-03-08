@@ -21,7 +21,37 @@
     <div id="project-stats"></div>
 
     <h2>Commits by time of day</h2>
-    <div id="chart"></div>
+    
+    <div id="slider-container">
+        <label for="commit-slider">Show commits until:</label>
+        <input type="range" id="commit-slider" min="0" max="100" value="100">
+        <time id="commit-time"></time>
+    </div>
+    
+    <div id="scrollytelling">
+        <div id="scroll-container">
+            <div id="spacer"></div>
+            <div id="items-container"></div>
+        </div>
+        <div id="chart"></div>
+    </div>
+
+    <section id="file-sizes-scrollytelling" class="scrolly-section">
+        <h2>Files by Size</h2>
+        
+        <div class="scrolly-container">
+          <!-- Left side: Visualization area -->
+          <div class="viz-container">
+            <div id="file-sizes-visualization"></div>
+          </div>
+          
+          <!-- Right side: Scrollable narrative -->
+          <div id="file-scroll-container" class="scroll-container">
+            <div id="file-spacer" class="spacer"></div>
+            <div id="file-items-container" class="items-container"></div>
+          </div>
+        </div>
+      </section>
 
     <dl id="commit-tooltip" class="info tooltip" hidden>
         <dt>Commit</dt>
@@ -33,13 +63,13 @@
         <dd id="commit-date"></dd>
       
         <dt>Time</dt>
-        <dd id="commit-time"></dd> <!-- New element for time -->
+        <dd id="commit-time"></dd>
 
         <dt>Author</dt>
-        <dd id="commit-author"></dd> <!-- New element for author -->
+        <dd id="commit-author"></dd>
 
         <dt>Lines Edited</dt>
-        <dd id="commit-lines-edited"></dd> <!-- New element for lines edited -->
+        <dd id="commit-lines-edited"></dd>
     </dl>
     <p id="selection-count">No commits selected</p>
     <dl id="language-breakdown" class="stats"></dl>
